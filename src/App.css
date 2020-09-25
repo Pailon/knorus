@@ -1,0 +1,61 @@
+.img_test{
+    top:14px;
+    left: 74px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.header{
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 320px;
+    list-style: none;
+
+    width: 836px;
+    height: 51px;
+
+    background: rgba(243, 243, 243, 0.9);
+
+    position: fixed;
+    z-index: 5;
+
+}
+
+.logo{
+    margin-top: 15px;
+}
+.icon{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #E6E7E9;
+    border-radius: 7px;
+    left: 14.29%;
+    right: 14.29%;
+    top: 14.29%;
+    bottom: 14.29%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.footer{
+    position: fixed;
+    z-index: 5;
+
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+    width: 834px;
+    height: 53px;
+    left: 834px;
+
+    background: rgba(243, 243, 243, 0.9);
+}
+
+
